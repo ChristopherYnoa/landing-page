@@ -3907,3 +3907,80 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Default styles for mobile and smaller screens */
+.skills-container {
+    display: block; /* Stack items vertically */
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Media query for larger screens (desktops) */
+@media (min-width: 768px) {
+    .skills-container {
+		white-space:nowrap;
+		word-wrap:break-word;
+        display: flex; /* Arrange items side by side */
+        gap: 75px; /* Add space between items */
+    }
+
+    .skills-list {
+        flex: 1; /* Allow items to grow and fill available space */
+    }
+}
+
+
+/* Media query for larger screens (desktops) */
+@media (min-width: 1024px) {
+    .skills-container {
+		white-space:nowrap;
+		word-wrap:break-word;
+        display: flex; /* Arrange items side by side */
+        gap: 120px; /* Add space between items */
+    }
+
+    .skills-list {
+        flex: 1; /* Allow items to grow and fill available space */
+    }
+}
+
+
+
+		/* 
+
+		.skills-container {
+			white-space:nowrap;
+			word-wrap:break-word;
+			display: flex;
+			gap: 150px; /* Adjust space between lists
+
+		}
+		
+		.skills-list {
+			list-style-type: none;
+			padding: 0;
+		}
+		
+		.skills-list ul {
+			margin-left: 20px;
+		}
+		
+
+		.skills-list ul{
+			margin-bottom: auto;
+
+		} 
+		*/
+
+/* html {
+	scroll-behavior: smooth;
+} */
